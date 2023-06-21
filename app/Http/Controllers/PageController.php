@@ -49,7 +49,7 @@ class PageController extends Controller
         return view('waktu',['hasil'=>$wkt,'cetak'=>$cetak]);
         }
         
-        else if($wkt >='18:00' && $wkt <= '18:59')
+        else
         {
         $cetak = 'Selamat Petang';
         return view('waktu',['hasil'=>$wkt,'cetak'=>$cetak]);
